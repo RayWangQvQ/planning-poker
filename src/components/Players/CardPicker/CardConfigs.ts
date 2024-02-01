@@ -111,6 +111,12 @@ export const getCustomCards = (values: string[]) => {
     { value: 7, displayValue: values[7], color: '#F4DD94' },
     { value: 8, displayValue: values[8], color: '#F4DD94' },
     { value: 9, displayValue: values[9], color: '#F39893' },
+    { value: 10, displayValue: values[10], color: '#F39893' },
+    { value: 11, displayValue: values[11], color: '#F39893' },
+    { value: 12, displayValue: values[12], color: '#F39893' },
+    { value: 13, displayValue: values[13], color: '#F39893' },
+    { value: 14, displayValue: values[14], color: '#F39893' },
+    { value: 15, displayValue: values[15], color: '#F39893' },
     { value: -2, displayValue: '❓', color: 'var(--color-background-secondary)' },
     { value: -1, displayValue: '-1', color: 'var(--color-background-secondary)' },
   ];
