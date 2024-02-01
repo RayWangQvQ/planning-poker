@@ -35,7 +35,7 @@ export const CreateGame = () => {
   const [gameType, setGameType] = useState(GameType.Fibonacci);
   const [hasDefaults, setHasDefaults] = useState({ game: true, name: true });
   const [loading, setLoading] = useState(false);
-  const [customOptions, setCustomOptions] = React.useState(Array(10).fill(''));
+  const [customOptions, setCustomOptions] = React.useState(Array(15).fill(''));
   const [error, setError] = React.useState(false);
   const { t } = useTranslation();
 
